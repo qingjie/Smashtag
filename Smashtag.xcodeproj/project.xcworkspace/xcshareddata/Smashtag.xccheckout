@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02F07152-B8BF-47A7-ADC1-7FA7586FB93A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Smashtag</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F20198C60D770741C2F3653305C3E18DD016642F</key>
+		<string>https://github.com/qingjie/Smashtag.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Smashtag.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F20198C60D770741C2F3653305C3E18DD016642F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/qingjie/Smashtag.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F20198C60D770741C2F3653305C3E18DD016642F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F20198C60D770741C2F3653305C3E18DD016642F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Smashtag</string>
+		</dict>
+	</array>
+</dict>
+</plist>

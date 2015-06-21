@@ -51,13 +51,14 @@ class ViewController: UITableViewController , UITextFieldDelegate {
     
     
     func refresh(){
+        
         refreshControl?.beginRefreshing()
+        
         refresh(refreshControl)
     }
     
     
     @IBAction func refresh(sender: UIRefreshControl?) {
-        if searchText != nil{
             if let request = nextRequestToAttempt{
                 request.fetchTweets { (newTweets) -> Void in
                     dispatch_async(dispatch_get_main_queue()) { () -> Void in
@@ -65,11 +66,11 @@ class ViewController: UITableViewController , UITextFieldDelegate {
                             self.lastSuccessfulRequest = request
                             self.tweets.insert(newTweets, atIndex: 0)
                             self.tableView.reloadData()
-                            sender?.endRefreshing()
+                            
                         }
+                        sender?.endRefreshing()
                     }
                 }
-            }
         }else{
             sender?.endRefreshing()
         }
